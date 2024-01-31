@@ -1,0 +1,36 @@
+body {
+    box-sizing: border-box;
+  }
+  
+  table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+  }
+  
+  table td {
+    padding: 8px;
+    border: 1px solid #fff; 
+  }
+  
+  table tr:nth-child(odd) {
+    background-color: #fff; 
+  }
+  
+  
+  td:first-child {
+    border-radius: 10px 0 0 10px;
+  }
+  
+  td:last-child {
+    border-radius: 0 10px 10px 0;
+  }
+  
+  table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #f1f5f9;
+  }
+  
